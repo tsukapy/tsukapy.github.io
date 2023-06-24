@@ -1,0 +1,42 @@
+/* リセット CSS */
+html, body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* 共通スタイル */
+nav {
+    background-color: #333;
+    color: #fff;
+    width: 200px; /* サイドバーの幅を設定 */
+    height: 100vh; /* ページの高さいっぱいにサイドバーを表示 */
+    position: fixed; /* サイドバーを固定位置に配置 */
+    top: 0;
+    left: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 10px;
+}
+
+nav ul li {
+    margin-bottom: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.content {
+    margin-left: 220px; /* サイドバーの幅 + マージンを考慮した値に設定 */
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 10px;
+}
+
+/* 個別ページスタイル */
+/* 各ページの独自のスタイルを追加できます */
